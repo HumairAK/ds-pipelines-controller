@@ -2,6 +2,8 @@ An operator that provisions a namespace installation of DSP within an OCP cluste
 
 # Quickstart
 
+Prerequisite: Install the Red Hat OpenShift Pipelines operator >= 1.8 using the Administrator perspective in the OpenShift console.
+
 Deploy the operator
 ```bash
 oc new-project ds-pipelines-controller
